@@ -1,0 +1,457 @@
+nohup: ignoring input
+[I 2025-06-01 13:33:40,623] A new study created in memory with name: no-name-052e78d8-2a2d-4e89-b075-256404ecb8a4
+wandb: Currently logged in as: shirmord (shirmord-ben-gurion-university-of-the-negev) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250601_133452-85y7ypvg
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/85y7ypvg
+wandb: uploading history steps 611-611, summary, console lines 66-69
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss ██▇▇▆▃▂▂▂▂▂▂▁▂▂▁▁▂▁▁▂▂▂▂▂▁▂▁▂▁▁▁▁▁▁▁▂▁▁▂
+wandb:     epoch/cosine ▃▃▁▁▆▆▆█▆▆████████████████████████
+wandb:    epoch/jaccard ▄▁▁▁▅▁▁▁▁▁▅▅▅█▅▅██▅█▅█▅█████▄███▄▄
+wandb:    epoch/lev_sim ▄▁▄▂▆▃▃▁█▇▁▆▆▄▅▅▇▄▆▁▆▁▃▅▃▁▃▆▁█▄▂▇▁
+wandb:   epoch/polarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: epoch/train_loss ██▇▆▄▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss ██▇▅▃▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.339
+wandb:     epoch/cosine 0.65581
+wandb:    epoch/jaccard 0.01963
+wandb:    epoch/lev_sim 0.08798
+wandb:   epoch/polarity 0.83299
+wandb: epoch/train_loss 6.31236
+wandb:   epoch/val_loss 6.41616
+wandb: 
+wandb: 🚀 View run model1 at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/85y7ypvg
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250601_133452-85y7ypvg/logs
+[I 2025-06-01 15:45:15,478] Trial 0 finished with value: 6.416159152984619 and parameters: {'batch_size': 32, 'hidden_size': 128, 'learning_rate': 0.0001, 'weight_decay': 0.0, 'dropout_rate': 0.2}. Best is trial 0 with value: 6.416159152984619.
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250601_154623-n8l2kc47
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/n8l2kc47
+wandb: uploading output.log; uploading wandb-summary.json; uploading config.yaml
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss ██▇▂▂▂▁▁▂▁▁▂▁▂▁▁▁▁▁▁▁▁▁▁▁▂▁▁▂▂▁▂▁▁▁▁▁▁▁▁
+wandb:     epoch/cosine ▇▇▂▇▂▂▂▇▂▇█▇▂▇▇█▂▁▇▂▇▇▁██▇
+wandb:    epoch/jaccard ▁▂▁▁▁▁▅▁▁▁▅▁▁▁▁▅▁▁▁▁▁▁▁▅█▁
+wandb:    epoch/lev_sim ▁▅▄▁▄▄▄▁▄▁▃▁▄▁▁▃▄█▁▄▁▁█▃▃▁
+wandb:   epoch/polarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: epoch/train_loss █▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss █▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.19188
+wandb:     epoch/cosine 0.65516
+wandb:    epoch/jaccard 0.01049
+wandb:    epoch/lev_sim 0.07754
+wandb:   epoch/polarity 0.83299
+wandb: epoch/train_loss 6.31309
+wandb:   epoch/val_loss 6.41468
+wandb: 
+wandb: 🚀 View run model1 at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/n8l2kc47
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250601_154623-n8l2kc47/logs
+[I 2025-06-01 17:39:34,531] Trial 1 finished with value: 6.414676666259766 and parameters: {'batch_size': 64, 'hidden_size': 256, 'learning_rate': 0.001, 'weight_decay': 0.001, 'dropout_rate': 0.2}. Best is trial 1 with value: 6.414676666259766.
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250601_174041-k931mfpt
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/k931mfpt
+wandb: uploading config.yaml
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss █▆▅▃▂▁▂▁▁▂▂▂▁▂▂▂▂▂▂▁▂▁▁▂▁▁▁▁▁▂▂▁▁▁▁▁▁▁▁▁
+wandb:     epoch/cosine ▁████████████▇▆███▄█████
+wandb:    epoch/jaccard ▁▁▃▁▅▆▆▆▆▃▆███▆▃▆▆█▆▆▆▆▆
+wandb:    epoch/lev_sim ▂▁▅▁█▃▁▅▅▅▇▂▂▄▅▁▄▂▁▁▃▂▂▁
+wandb:   epoch/polarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: epoch/train_loss █▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss ▅▂▁▁▂▃▄▄▃▄▅▅▅▅▅▆▅▇▆█▆▇▆▇
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.42793
+wandb:     epoch/cosine 0.65776
+wandb:    epoch/jaccard 0.03159
+wandb:    epoch/lev_sim 0.09039
+wandb:   epoch/polarity 0.83299
+wandb: epoch/train_loss 6.24831
+wandb:   epoch/val_loss 6.5203
+wandb: 
+wandb: 🚀 View run model1 at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/k931mfpt
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250601_174041-k931mfpt/logs
+[I 2025-06-01 19:12:18,878] Trial 2 finished with value: 6.520303249359131 and parameters: {'batch_size': 32, 'hidden_size': 256, 'learning_rate': 0.001, 'weight_decay': 0.0, 'dropout_rate': 0.3}. Best is trial 1 with value: 6.414676666259766.
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250601_191326-r963buw1
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/r963buw1
+wandb: uploading config.yaml
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss ▅▆▂▄▆▃▅▂▆▃▄▄▄▂█▄▅▄▆▅▂▄▃▃▃▄▅▁▃▂▂▇▅▃▆▃▄▁▅▅
+wandb:     epoch/cosine ▂▂██▂▂█▂▃▂█▂█▁▂▂▂███▅▁██▂▂█▂█▂█▂▁▂▂▂██▁█
+wandb:    epoch/jaccard ▂▂▂▂▂▂▂▂▂▂▂▂▂▁▂▂▂▂▂▂▂██▂▂▂▂▂█▂▂▂▁▂▂█▂▂▁▂
+wandb:    epoch/lev_sim ▂▁▂▁▃▁▂▁▅▇█▁▇▃▆▁▅▂▁▁▄▁▆▄▁▂▁▂▁▂▄▁▂▆▂▁▄▁▆▄
+wandb:   epoch/polarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: epoch/train_loss █▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss █▅▅▆▅▅▄▆▄▄▅▅▃▄▃▄▃▅▄▃▄▅▃▄▃▃▄▃▄▁▄▁▄▁▄▃▄▄▃▃
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.74689
+wandb:     epoch/cosine 0.65516
+wandb:    epoch/jaccard 0.01049
+wandb:    epoch/lev_sim 0.12516
+wandb:   epoch/polarity 0.83299
+wandb: epoch/train_loss 6.42519
+wandb:   epoch/val_loss 6.42174
+wandb: 
+wandb: 🚀 View run model1 at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/r963buw1
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250601_191326-r963buw1/logs
+[I 2025-06-01 22:13:00,646] Trial 3 finished with value: 6.421742916107178 and parameters: {'batch_size': 32, 'hidden_size': 128, 'learning_rate': 0.01, 'weight_decay': 0.001, 'dropout_rate': 0.5}. Best is trial 1 with value: 6.414676666259766.
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250601_221407-ivdllhth
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/ivdllhth
+wandb: uploading config.yaml
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss █▂▃▂▃▃▂▂▂▂▂▂▂▃▂▂▂▁▂▂▂▂▂▂▂▂▂▂▂▂▂▁▂▂▁▂▂▂▂▁
+wandb:     epoch/cosine ▃▇▇▃▇▇▇▇▇▇▇▇▄▇▇▄█▇▅▅▆▆▇▂▆▁▆█▃▃▆▇
+wandb:    epoch/jaccard ▁▁▁▁▃▃▄▃▃▃▄▃▆▆▇▆▆▆▆▆▆█▆▆▆▆▇█▇▇▇▇
+wandb:    epoch/lev_sim ▇▃▅▆▁▃▂▁▁▄▂▁▄▂▃█▂▃▂▂▃▅▂▂▄▄▃▃▁▁▂▂
+wandb:   epoch/polarity ████████████████████▅▅▇██▅▇▁▇█▇█
+wandb: epoch/train_loss █▃▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▂▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss ▆▅▁▃▂▂▂▂▂▂▂▁▃▄▄▄▄▄▄▄▅▆▆▅▆▅▇▆█▆▆▇
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.1083
+wandb:     epoch/cosine 0.67078
+wandb:    epoch/jaccard 0.04972
+wandb:    epoch/lev_sim 0.08992
+wandb:   epoch/polarity 0.83305
+wandb: epoch/train_loss 6.20546
+wandb:   epoch/val_loss 6.57535
+wandb: 
+wandb: 🚀 View run model1 at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/ivdllhth
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250601_221407-ivdllhth/logs
+[I 2025-06-02 00:11:50,911] Trial 4 finished with value: 6.575347423553467 and parameters: {'batch_size': 32, 'hidden_size': 128, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_rate': 0.2}. Best is trial 1 with value: 6.414676666259766.
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250602_001258-raacb6jn
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/raacb6jn
+wandb: uploading config.yaml
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss ████▇▄▃▃▂▂▃▂▂▂▂▁▂▂▂▂▂▂▁▂▂▁▂▁▂▂▁▁▁▁▁▁▁▁▂▂
+wandb:     epoch/cosine ▇▇▇▁▇▇▂▁▇▇▂▇▇█▇▇█▇▇██▇███▇██▇▇▇▇█▇▇
+wandb:    epoch/jaccard ▁▂▂▂▁▁▁▁▁▅▁▅▅▅▅▅▅▅▅▅▅██▅▅▅█████████
+wandb:    epoch/lev_sim ▁▁▁▃▃▃▅█▃▃▅▃▃▄▃▃▄▃▃▄▄▃▄▄▃▃▄▄▃▃▃▃▄▃▃
+wandb:   epoch/polarity █▆▆▁▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆
+wandb: epoch/train_loss ██▇▆▅▃▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss ██▇▅▃▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.49453
+wandb:     epoch/cosine 0.6562
+wandb:    epoch/jaccard 0.02975
+wandb:    epoch/lev_sim 0.07842
+wandb:   epoch/polarity 0.83299
+wandb: epoch/train_loss 6.40882
+wandb:   epoch/val_loss 6.42254
+wandb: 
+wandb: 🚀 View run model1 at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/raacb6jn
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250602_001258-raacb6jn/logs
+[I 2025-06-02 03:00:21,842] Trial 5 finished with value: 6.422544002532959 and parameters: {'batch_size': 64, 'hidden_size': 256, 'learning_rate': 0.0001, 'weight_decay': 0.0, 'dropout_rate': 0.5}. Best is trial 1 with value: 6.414676666259766.
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250602_030128-q4m8tcyc
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/q4m8tcyc
+wandb: uploading output.log; uploading wandb-summary.json; uploading config.yaml
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss █▇█▆▅▄▅▄▄▄▅▃▆▄▄▄▄▃▃▂▃▃▃▃▁▃▄▄▃▃▃▅▃▄▄▃▃▄▃▄
+wandb:     epoch/cosine ▅▅▅▇▇▇▇█▇██▁▇▅▅▇▅█▅▇▅█▆▆█▅▇▅█▅█▅▆▅█▅█▅█▅
+wandb:    epoch/jaccard ▃▁▁▃▁▄▂▄▂▄▄▂▃▄▄▂▄▆▄▆▃▆▅▃▆▄▆▄▇▄▆▆▄▆▆▄█▅▄▄
+wandb:    epoch/lev_sim ▆▆▅▁▁▁▃▂▁▂▂▂▄▆▄▁▄▄▂▂▅▂▄█▁▂▁▅▅▂▆▄▂▃▆▆▇▆▅▄
+wandb:   epoch/polarity ████████████████████████████▄▄██▄█▂█▆▁▆█
+wandb: epoch/train_loss █▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss ▄▂▂▂▃▂▂▂▄▂▃▅▃▄▄▄▂▅▄▁▅▄▆▄▅▇▅▇▆▅█▇▇▇▇█▇▇▇▆
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.154
+wandb:     epoch/cosine 0.47236
+wandb:    epoch/jaccard 0.03144
+wandb:    epoch/lev_sim 0.12727
+wandb:   epoch/polarity 0.83255
+wandb: epoch/train_loss 6.18783
+wandb:   epoch/val_loss 6.56768
+wandb: 
+wandb: 🚀 View run model1 at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/q4m8tcyc
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250602_030128-q4m8tcyc/logs
+[I 2025-06-02 05:28:05,129] Trial 6 finished with value: 6.567682504653931 and parameters: {'batch_size': 32, 'hidden_size': 128, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_rate': 0.2}. Best is trial 1 with value: 6.414676666259766.
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250602_052911-zo7se9b1
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/zo7se9b1
+wandb: uploading config.yaml
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss █▂▁▂▂▁▂▁▁▁▁▁▂▁▁▁▁▂▁▁▁▁▂▁▂▁▂▁▁▂▁▁▁▁▁▁▁▁▂▂
+wandb:     epoch/cosine ▆▁▅██▅█▆█▆▅▆▆█▆▃▅█▆██▆▆█
+wandb:    epoch/jaccard ▁▁▁▃▆▃▆▆▄▃▃▆▆▆▃▆▆▆▆▄▆█▆▃
+wandb:    epoch/lev_sim ▃▁▆▁▂▆▂█▂█▆▃▃▂█▂▆▄▃▂▄▃▅▁
+wandb:   epoch/polarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: epoch/train_loss █▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss █▃▂▁▁▁▁▂▂▁▁▁▁▂▂▃▂▁▂▂▁▂▂▁
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.42591
+wandb:     epoch/cosine 0.65618
+wandb:    epoch/jaccard 0.01963
+wandb:    epoch/lev_sim 0.07783
+wandb:   epoch/polarity 0.83299
+wandb: epoch/train_loss 6.34678
+wandb:   epoch/val_loss 6.42693
+wandb: 
+wandb: 🚀 View run model1 at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/zo7se9b1
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250602_052911-zo7se9b1/logs
+[I 2025-06-02 07:02:07,230] Trial 7 finished with value: 6.426932334899902 and parameters: {'batch_size': 64, 'hidden_size': 256, 'learning_rate': 0.01, 'weight_decay': 0.0001, 'dropout_rate': 0.5}. Best is trial 1 with value: 6.414676666259766.
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250602_070313-8l71d77e
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/8l71d77e
+wandb: uploading output.log; uploading config.yaml
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss █▃▃▃▃▂▃▂▃▂▂▂▂▂▃▂▃▂▂▃▂▃▂▂▂▂▂▂▂▂▂▂▂▂▂▁▂▂▁▁
+wandb:     epoch/cosine ▂▁▆█▇█▄▇▇███▇▇█▇█▇▇█▇▇▇▇▇▇▇▇▇▇██▇█▇██▇█▇
+wandb:    epoch/jaccard ▄▄▄█▇▇▇▄▇▄▇▄▄▄▇▄▇▄▆▇▆▄▄▅▄▆▃▁▄▁▄▇▂▄▄▄▄▄▄▄
+wandb:    epoch/lev_sim ▃▃▃▃▂▄▃▁▃▄▂▂▁▅▂▁▂▄▇▅▂▄▁▃▃▂▂▃▃▁▄▅▄▅▄▂▇▂█▂
+wandb:   epoch/polarity ██▁▁▁▁▁█████████████████████████████████
+wandb: epoch/train_loss █▇▅▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss █▇▃▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.15489
+wandb:     epoch/cosine 0.66161
+wandb:    epoch/jaccard 0.02075
+wandb:    epoch/lev_sim 0.09898
+wandb:   epoch/polarity 0.83299
+wandb: epoch/train_loss 6.23457
+wandb:   epoch/val_loss 6.23909
+wandb: 
+wandb: 🚀 View run model1 at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/8l71d77e
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250602_070313-8l71d77e/logs
+[I 2025-06-02 10:09:59,301] Trial 8 finished with value: 6.239092588424683 and parameters: {'batch_size': 32, 'hidden_size': 256, 'learning_rate': 0.0001, 'weight_decay': 0.001, 'dropout_rate': 0.5}. Best is trial 8 with value: 6.239092588424683.
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250602_101106-fagsor4e
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/fagsor4e
+wandb: uploading output.log; uploading config.yaml
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss █▅▄▄▃▃▂▂▂▂▂▂▃▃▂▂▁▃▂▂▁▃▁▃▂▂▃▁▂▂▂▃▂▃▁▂▃▂▁▁
+wandb:     epoch/cosine ▇▂▇▁▇▂▂▇▂▇▂▇▃▇▂▃▃▃▇▃▇▇▃██
+wandb:    epoch/jaccard ▁▁▃▃▁▅▆▅▄▅▅▅▅▅▅▇▅█▅▇█▆▅▅▇
+wandb:    epoch/lev_sim ▁▃▃▆▁█▃▄▅▄▅▄▃▄▃▃▃▃▂▃▄▄▃▂▂
+wandb:   epoch/polarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: epoch/train_loss █▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss █▇▃▂▁▁▁▁▁▁▄▄▅▃▂▃▃▅▄▄▃▅▄▅█
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.04139
+wandb:     epoch/cosine 0.66063
+wandb:    epoch/jaccard 0.04055
+wandb:    epoch/lev_sim 0.08245
+wandb:   epoch/polarity 0.83299
+wandb: epoch/train_loss 6.24305
+wandb:   epoch/val_loss 6.56716
+wandb: 
+wandb: 🚀 View run model1 at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/fagsor4e
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250602_101106-fagsor4e/logs
+[I 2025-06-02 11:55:19,184] Trial 9 finished with value: 6.567156791687012 and parameters: {'batch_size': 64, 'hidden_size': 128, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_rate': 0.3}. Best is trial 8 with value: 6.239092588424683.
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250602_115626-84f11tbq
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/84f11tbq
+wandb: uploading history steps 899-899, summary, console lines 98-100
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss ███▇▆▅▄▃▂▂▂▂▂▂▂▁▂▁▂▁▁▁▂▁▁▂▂▁▂▂▁▁▁▂▁▂▁▁▁▁
+wandb:     epoch/cosine ▁▁▃▅▄▆██████████████████████████████████
+wandb:    epoch/jaccard ▄▅▅▄█▄████████▄▄█▄█▄█▅█▄▄▅▁▁▁▁█▁▅▁▅▁▁▁▁▁
+wandb:    epoch/lev_sim ▁▃▃▄▅▇▄▁▁▂▁▄▄▆▂▂▁▂▄▁▂▄▁▁▁▁▂▁▃▁▂█▁▁▂▃▁▁▁▃
+wandb:   epoch/polarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: epoch/train_loss █▇▅▃▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss █▇▃▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.15747
+wandb:     epoch/cosine 0.65517
+wandb:    epoch/jaccard 0.01071
+wandb:    epoch/lev_sim 0.10944
+wandb:   epoch/polarity 0.83299
+wandb: epoch/train_loss 6.36486
+wandb:   epoch/val_loss 6.39436
+wandb: 
+wandb: 🚀 View run model1 at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/84f11tbq
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250602_115626-84f11tbq/logs
+[I 2025-06-02 15:05:12,360] Trial 10 finished with value: 6.394357919692993 and parameters: {'batch_size': 32, 'hidden_size': 256, 'learning_rate': 0.0001, 'weight_decay': 0.001, 'dropout_rate': 0.5}. Best is trial 8 with value: 6.239092588424683.
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250602_150619-xphdah6x
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/xphdah6x
+wandb: uploading history steps 899-899, summary, console lines 98-100
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss █▇▆▃▃▃▂▂▂▂▂▁▂▂▂▂▁▂▂▂▂▁▂▁▂▂▂▂▂▁▁▂▁▁▁▁▁▂▁▁
+wandb:     epoch/cosine ▇▅▇▁▆██▇▇███▇▇█▇█▇▇▇▇█▇▇██▇▇▇▇██▇▇▇▇▇▇▇▇
+wandb:    epoch/jaccard ▁▂▁▅█▄▄▁▄▄▄▁▁▄▁▄▁▄▁▁▃▁▄▁▄▄▄▄▁▄▄▄▄▄▄▄▄▄▄▄
+wandb:    epoch/lev_sim ▁▄▄▆▄▄▃▂▃▅▆▆▆▄▂▃▇▅▄▂▃▅▂▆▅▆▂▂▅▄▆█▄▂▆▄▄▃▂▂
+wandb:   epoch/polarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: epoch/train_loss █▇▅▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss █▇▃▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.45566
+wandb:     epoch/cosine 0.65525
+wandb:    epoch/jaccard 0.01818
+wandb:    epoch/lev_sim 0.08882
+wandb:   epoch/polarity 0.83299
+wandb: epoch/train_loss 6.36389
+wandb:   epoch/val_loss 6.39495
+wandb: 
+wandb: 🚀 View run model1 at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/xphdah6x
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250602_150619-xphdah6x/logs
+[I 2025-06-02 18:16:38,294] Trial 11 finished with value: 6.394947290420532 and parameters: {'batch_size': 32, 'hidden_size': 256, 'learning_rate': 0.0001, 'weight_decay': 0.001, 'dropout_rate': 0.5}. Best is trial 8 with value: 6.239092588424683.
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250602_181745-4o6gep36
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/4o6gep36
+wandb: uploading history steps 899-899, summary, console lines 98-100
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss ████▇▅▃▂▂▂▂▁▂▁▂▁▂▁▁▁▂▂▁▁▂▂▁▁▂▁▁▁▁▁▁▁▁▁▂▁
+wandb:     epoch/cosine ▁▁▄██▇▇▄▇▄▅▇▇██▇▄▇▄██▇▄▇█▇█▇█▇▇▇▇███▇▇▇█
+wandb:    epoch/jaccard ▁▁▃▆█▆▃▃▃▃▃▆▆▃▆▃▃▃▃▃▃▆▃▁▃▃▃▄▃▃▂▃▁▂▄▃▁▁▂▂
+wandb:    epoch/lev_sim ▁▄▅▄▅▁▆▂▃▃▄▁▁▂▂▁▂▃▇▄▂▃▄▁▁▁█▁▅▁▁▁▄▂▃▆▄▃▁▄
+wandb:   epoch/polarity ▁▁██████████████████████████████████████
+wandb: epoch/train_loss █▇▆▃▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss █▇▄▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.31034
+wandb:     epoch/cosine 0.65559
+wandb:    epoch/jaccard 0.01265
+wandb:    epoch/lev_sim 0.12089
+wandb:   epoch/polarity 0.83299
+wandb: epoch/train_loss 6.33378
+wandb:   epoch/val_loss 6.3423
+wandb: 
+wandb: 🚀 View run model1 at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/4o6gep36
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250602_181745-4o6gep36/logs
+[I 2025-06-02 21:20:52,289] Trial 12 finished with value: 6.342303514480591 and parameters: {'batch_size': 32, 'hidden_size': 256, 'learning_rate': 0.0001, 'weight_decay': 0.001, 'dropout_rate': 0.5}. Best is trial 8 with value: 6.239092588424683.
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250602_212159-y94ez70k
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/y94ez70k
+wandb: uploading config.yaml
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss ██▆▅▄▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▂▂▂▂▁▂▂▂▂▁▁▁▂▁▁▁▁
+wandb:     epoch/cosine ▁▅▆▇▇█▅▅▇▇▅▇▅▇▅█▅█▇▅██▇▅██▇█▇▇▇█████████
+wandb:    epoch/jaccard ▁▁▃█▃▄▁▁▄▄▁▄▁▄▁▄▄▁▄▄▄▄▄▁▄▄▁▄▁▄▄▄▄▄▄▄▄▄▄▄
+wandb:    epoch/lev_sim ▁▄▅▆▆▇▄▅▄▃▄▅▆▅▅▅▇█▃▅▆▄▅▇▄▄▃▄▃▃▃▇▆▄▅▇▅▇▅█
+wandb:   epoch/polarity ▁███████████████████████████████████████
+wandb: epoch/train_loss █▇▅▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss █▇▄▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.11647
+wandb:     epoch/cosine 0.68374
+wandb:    epoch/jaccard 0.02127
+wandb:    epoch/lev_sim 0.1492
+wandb:   epoch/polarity 0.83299
+wandb: epoch/train_loss 6.14473
+wandb:   epoch/val_loss 6.12424
+wandb: 
+wandb: 🚀 View run model1 at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/y94ez70k
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250602_212159-y94ez70k/logs
+[I 2025-06-03 00:40:02,460] Trial 13 finished with value: 6.124240875244141 and parameters: {'batch_size': 32, 'hidden_size': 256, 'learning_rate': 0.0001, 'weight_decay': 0.001, 'dropout_rate': 0.5}. Best is trial 13 with value: 6.124240875244141.
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250603_004109-5f8ymb7k
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/optuna_lyrics_model1/runs/5f8ymb7k

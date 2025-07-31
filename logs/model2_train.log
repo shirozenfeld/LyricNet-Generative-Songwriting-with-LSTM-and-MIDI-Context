@@ -1,0 +1,698 @@
+nohup: ignoring input
+wandb: Currently logged in as: shirmord (shirmord-ben-gurion-university-of-the-negev) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250605_222311-xr22eg0t
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model2_opt
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/lyrics_rnn_model2
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/lyrics_rnn_model2/runs/xr22eg0t
+7538
+Loading cached MIDI‐features for 'abba - knowing me knowing you'
+Loading cached MIDI‐features for 'the carpenters - close to you'
+Loading cached MIDI‐features for 'the carpenters - merry christmas darling'
+Loading cached MIDI‐features for 'carly simon - mockingbird'
+Loading cached MIDI‐features for 'carly simon - half a chance'
+Loading cached MIDI‐features for 'billy idol - hot in the city'
+Loading cached MIDI‐features for 'the carpenters - for all we know'
+Loading cached MIDI‐features for 'carl douglas - kung fu fighting'
+Loading cached MIDI‐features for 'cat stevens - another saturday night'
+Loading cached MIDI‐features for 'cyndi lauper - i drove all night'
+Loading cached MIDI‐features for 'the carpenters - sweet sweet smile'
+Loading cached MIDI‐features for 'genesis - in too deep'
+Loading cached MIDI‐features for 'barenaked ladies - the old apartment'
+Loading cached MIDI‐features for 'fatboy slim - right here right now'
+Loading cached MIDI‐features for 'america - i need you'
+Loading cached MIDI‐features for 'cat stevens - peace train'
+Loading cached MIDI‐features for 'gloria gaynor - never can say goodbye'
+Loading cached MIDI‐features for 'billy joel - new york state of mind'
+Loading cached MIDI‐features for 'the eagles - witchy woman'
+Loading cached MIDI‐features for 'bobby brown - my perogative'
+Loading cached MIDI‐features for 'bee gees - jive talkin''
+Loading cached MIDI‐features for 'all 4 one - i swear'
+Loading cached MIDI‐features for 'the drifters - up on the roof'
+Loading cached MIDI‐features for 'billy joel - only the good die young'
+Loading cached MIDI‐features for 'diana ross - upside down'
+Loading cached MIDI‐features for 'eminem - guilty conscience'
+Loading cached MIDI‐features for 'eddy arnold - welcome to my world'
+Loading cached MIDI‐features for '98 degrees - i do cherish you'
+Loading cached MIDI‐features for 'everclear - i will buy you a new life'
+Loading cached MIDI‐features for 'alan parsons - eye in the sky'
+Loading cached MIDI‐features for 'boyzone - all that i need'
+Loading cached MIDI‐features for 'the corrs - love to love you'
+Loading cached MIDI‐features for 'eve 6 - inside out'
+Loading cached MIDI‐features for 'fabulous thunderbirds - wrap it up'
+Loading cached MIDI‐features for 'the corrs - at your side'
+Loading cached MIDI‐features for 'anita baker - sweet love'
+Loading cached MIDI‐features for 'bee gees - night fever'
+Loading cached MIDI‐features for 'the carpenters - only yesterday'
+Loading cached MIDI‐features for 'eiffel 65 - too much of heaven'
+Loading cached MIDI‐features for 'don mclean - vincent'
+Loading cached MIDI‐features for 'blackstreet - no diggity'
+Loading cached MIDI‐features for 'billy joel - river of dreams'
+Loading cached MIDI‐features for 'bob wills - faded love'
+Loading cached MIDI‐features for 'asia - only time will tell'
+Loading cached MIDI‐features for '2 unlimited - tribal dance'
+Loading cached MIDI‐features for 'christmas carols - winter wonderland'
+Loading cached MIDI‐features for 'the corrs - love gives love takes'
+Loading cached MIDI‐features for 'backstreet boys - i need you tonight'
+Loading cached MIDI‐features for 'george michael - freedom'
+Loading cached MIDI‐features for 'genesis - dance on a volcano'
+Loading cached MIDI‐features for 'en vogue - free your mind'
+Loading cached MIDI‐features for 'the eagles - the last resort'
+Loading cached MIDI‐features for '5ive - until the time is through'
+Loading cached MIDI‐features for 'billy ocean - loverboy'
+Loading cached MIDI‐features for 'christmas carols - holly jolly christmas'
+Loading cached MIDI‐features for 'genesis - tonight tonight tonight'
+Loading cached MIDI‐features for 'genesis - entangled'
+Loading cached MIDI‐features for 'christmas carols - we three kings'
+Loading cached MIDI‐features for 'the eagles - take it to the limit'
+Loading cached MIDI‐features for 'fatboy slim - rockafella skank'
+Loading cached MIDI‐features for 'boyzone - i love the way you love me'
+Loading cached MIDI‐features for 'christmas carols - let it snow'
+Loading cached MIDI‐features for 'the corrs - closer'
+Loading cached MIDI‐features for 'bread - sweet surrender'
+Loading cached MIDI‐features for 'the carpenters - superstar'
+Loading cached MIDI‐features for 'badfinger - day after day'
+Loading cached MIDI‐features for 'dobie gray - drift away'
+Loading cached MIDI‐features for 'aqua - my oh my'
+Loading cached MIDI‐features for 'bread - aubrey'
+Loading cached MIDI‐features for 'cake - frank sinatra'
+Loading cached MIDI‐features for 'the eagles - hotel california'
+Loading cached MIDI‐features for 'the flamingos - i only have eyes for you'
+Loading cached MIDI‐features for 'ben folds five - brick'
+Loading cached MIDI‐features for 'eiffel 65 - your clown'
+Loading cached MIDI‐features for 'eminem - under the influence'
+Loading cached MIDI‐features for 'anita ward - ring my bell'
+Loading cached MIDI‐features for 'debbie gibson - lost in your eyes'
+Loading cached MIDI‐features for 'frankie valli - grease'
+Loading cached MIDI‐features for 'genesis - calling all stations'
+Loading cached MIDI‐features for 'atlantic starr - always'
+Loading cached MIDI‐features for 'average white band - cut the cake'
+Loading cached MIDI‐features for 'all 4 one - i swear'
+Loading cached MIDI‐features for 'depeche mode - enjoy the silence'
+Loading cached MIDI‐features for 'genesis - land of confusion'
+Loading cached MIDI‐features for 'the carpenters - sing'
+Loading cached MIDI‐features for 'belinda carlisle - heaven is a place on earth'
+Loading cached MIDI‐features for 'bill withers - lean on me'
+Loading cached MIDI‐features for 'Artist - Song_name'
+Loading cached MIDI‐features for 'the crystals - da doo ron ron'
+Loading cached MIDI‐features for 'christmas carols - i saw mommy kissing santa claus'
+Loading cached MIDI‐features for 'billy joel - pressure'
+Loading cached MIDI‐features for 'allure - all cried out'
+Loading cached MIDI‐features for 'genesis - no son of mine'
+Loading cached MIDI‐features for 'black rob - whoa'
+Loading cached MIDI‐features for 'christina aguilera - reflection'
+Loading cached MIDI‐features for 'dave dudley - six days on the road'
+Loading cached MIDI‐features for 'george strait - i cross my heart'
+Loading cached MIDI‐features for 'brian mcknight - back at one'
+Loading cached MIDI‐features for 'cyndi lauper - goonies r good enough'
+Loading cached MIDI‐features for 'billy idol - mony mony'
+Loading cached MIDI‐features for 'the clash - rock the casbah'
+Loading cached MIDI‐features for 'gloria gaynor - i will survive'
+Loading cached MIDI‐features for 'boyzone - no matter what'
+Loading cached MIDI‐features for 'christmas carols - santa claus is coming to town'
+Loading cached MIDI‐features for 'enya - orinoco flow'
+Loading cached MIDI‐features for 'america - sandman'
+Loading cached MIDI‐features for 'andrew gold - lonely boy'
+Loading cached MIDI‐features for 'george benson - this masquerade'
+Loading cached MIDI‐features for 'the bangles - walk like an egyptian'
+Loading cached MIDI‐features for 'david bowie - let's dance'
+Loading cached MIDI‐features for 'brandy - the boy is mine'
+Loading cached MIDI‐features for 'boyzone - you needed me'
+Loading cached MIDI‐features for 'the bangles - manic monday'
+Loading cached MIDI‐features for 'backstreet boys - back to your heart'
+Loading cached MIDI‐features for 'faith no more - epic'
+Loading cached MIDI‐features for 'genesis - misunderstanding'
+Loading cached MIDI‐features for 'the corrs - leave me alone'
+Loading cached MIDI‐features for 'billy idol - catch my fall'
+Loading cached MIDI‐features for 'billy joel - uptown girl'
+Loading cached MIDI‐features for 'adele - hometown glory'
+Loading cached MIDI‐features for 'the coasters - charlie brown'
+Loading cached MIDI‐features for 'anne murray - you needed me'
+Loading cached MIDI‐features for 'carole king - will you still love me tomorrow'
+Loading cached MIDI‐features for 'the corrs - runaway'
+Loading cached MIDI‐features for 'glen campbell - wichita lineman'
+Loading cached MIDI‐features for 'dusty springfield - son of a preacher man'
+Loading cached MIDI‐features for 'cyndi lauper - time after time'
+Loading cached MIDI‐features for 'backstreet boys - let the music heal your soul'
+Loading cached MIDI‐features for 'blur - country house'
+Loading cached MIDI‐features for 'eminem - stan'
+Loading cached MIDI‐features for 'fatboy slim - praise you'
+Loading cached MIDI‐features for 'the drifters - on broadway'
+Loading cached MIDI‐features for 'blink 182 - dammit'
+Loading cached MIDI‐features for 'cypress hill - rock superstar'
+Loading cached MIDI‐features for 'christmas carols - jingle bells'
+Loading cached MIDI‐features for 'firefall - just remember i love you'
+Loading cached MIDI‐features for 'blur - charmless man'
+Loading cached MIDI‐features for 'britney spears - baby one more time'
+Loading cached MIDI‐features for 'faith hill - breathe'
+Loading cached MIDI‐features for '2 unlimited - get ready for this'
+Loading cached MIDI‐features for 'bread - goodbye girl'
+Loading cached MIDI‐features for 'abc - poison arrow'
+Loading cached MIDI‐features for 'eels - last stop this town'
+Loading cached MIDI‐features for 'abba - fernando'
+Loading cached MIDI‐features for 'cat stevens - wild world'
+Loading cached MIDI‐features for 'atlanta rhythm section - imaginary lover'
+Loading cached MIDI‐features for 'the clash - should i stay or should i go'
+Loading cached MIDI‐features for 'celine dion - tell him'
+Loading cached MIDI‐features for 'enrique iglesias - experiencia religiosa'
+Loading cached MIDI‐features for 'fastball - out of my head'
+Loading cached MIDI‐features for 'al wilson - show and tell'
+Loading cached MIDI‐features for 'cher - believe'
+Loading cached MIDI‐features for 'christmas carols - what child is this'
+Loading cached MIDI‐features for '5ive - if ya gettin down'
+Loading cached MIDI‐features for 'depeche mode - everything counts'
+Loading cached MIDI‐features for 'barenaked ladies - shoe box'
+Loading cached MIDI‐features for 'coolio - fantastic voyage'
+Loading cached MIDI‐features for 'britney spears - sometimes'
+Loading cached MIDI‐features for 'gene autry - back in the saddle again'
+Loading cached MIDI‐features for 'bee gees - nights on broadway'
+Loading cached MIDI‐features for 'billy swan - i can help'
+Loading cached MIDI‐features for 'five man electrical band - signs'
+Loading cached MIDI‐features for 'the four seasons - walk like a man'
+Loading cached MIDI‐features for 'genesis - invisible touch'
+Loading cached MIDI‐features for 'alannah myles - black velvet'
+Loading cached MIDI‐features for 'aaliyah - are you that somebody'
+Loading cached MIDI‐features for 'badfinger - come and get it'
+Loading cached MIDI‐features for 'bread - make it with you'
+Loading cached MIDI‐features for 'cake - never there'
+Loading cached MIDI‐features for 'bob welch - precious love'
+Loading cached MIDI‐features for 'don mclean - american pie'
+Loading cached MIDI‐features for 'george michael - one more try'
+Loading cached MIDI‐features for 'carole king - i feel the earth move'
+Loading cached MIDI‐features for 'the corrs - intimacy'
+Loading cached MIDI‐features for 'britney spears - lucky'
+Loading cached MIDI‐features for 'connie francis - where the boys are'
+Loading cached MIDI‐features for 'billy joel - allentown'
+Loading cached MIDI‐features for 'the eagles - seven bridges road'
+Loading cached MIDI‐features for 'counting crows - mr jones'
+Loading cached MIDI‐features for 'the carpenters - goodbye to love'
+Loading cached MIDI‐features for 'backstreet boys - everybody'
+Loading cached MIDI‐features for 'alice deejay - better off alone'
+Loading cached MIDI‐features for 'arlo guthrie - city of new orleans'
+Loading cached MIDI‐features for 'billy joel - the stranger'
+Loading cached MIDI‐features for 'everclear - santa monica'
+Loading cached MIDI‐features for 'eminem - kim'
+Loading cached MIDI‐features for 'culture club - karma chameleon'
+Loading cached MIDI‐features for 'bonnie tyler - total eclipse of the heart'
+Loading cached MIDI‐features for 'geri halliwell - mi chico latino'
+Loading cached MIDI‐features for 'bee gees - words'
+Loading cached MIDI‐features for 'frankie avalon - venus'
+Loading cached MIDI‐features for 'bob marley - could you be loved'
+Loading cached MIDI‐features for 'eminem - role model'
+Loading cached MIDI‐features for 'christmas carols - have yourself a merry little christmas'
+Loading cached MIDI‐features for 'buck owens - together again'
+Loading cached MIDI‐features for 'coolio - c u when u get there'
+Loading cached MIDI‐features for 'george strait - all my ex's live in texas'
+Loading cached MIDI‐features for 'garth brooks - friends in low places'
+Loading cached MIDI‐features for 'ace of base - always have always will'
+Loading cached MIDI‐features for 'america - daisy jane'
+Loading cached MIDI‐features for 'the corrs - heaven knows'
+Loading cached MIDI‐features for 'boyzone - words'
+Loading cached MIDI‐features for 'donna summer - bad girls'
+Loading cached MIDI‐features for 'bob wills - san antonio rose'
+Loading cached MIDI‐features for 'carly simon - attitude dancing'
+Loading cached MIDI‐features for 'billy joel - she's got a way'
+Loading cached MIDI‐features for 'adele - someone like you'
+Loading cached MIDI‐features for 'the carpenters - top of the world'
+Loading cached MIDI‐features for 'the eagles - the long run'
+Loading cached MIDI‐features for 'carole king - so far away'
+Loading cached MIDI‐features for 'corey hart - sunglasses at night'
+Loading cached MIDI‐features for 'the carpenters - a song for you'
+Loading cached MIDI‐features for 'dan fogelberg - leader of the band'
+Loading cached MIDI‐features for 'don henley - dirty laundry'
+Loading cached MIDI‐features for 'bee gees - too much heaven'
+Loading cached MIDI‐features for 'genesis - illegal alien'
+Loading cached MIDI‐features for 'boyzone - picture of you'
+Loading cached MIDI‐features for 'the four seasons - ronnie'
+Loading cached MIDI‐features for 'alan parsons - damned if i do'
+Loading cached MIDI‐features for 'dave mason - we just disagree'
+Loading cached MIDI‐features for 'the corrs - only when i sleep'
+Loading cached MIDI‐features for 'christmas carols - deck the halls'
+Loading cached MIDI‐features for 'bad religion - american jesus'
+Loading cached MIDI‐features for 'fine young cannibals - she drives me crazy'
+Loading cached MIDI‐features for 'dixie chicks - goodbye earl'
+Loading cached MIDI‐features for 'berlin - the metro'
+Loading cached MIDI‐features for 'christmas carols - rockin around the christmas tree'
+Loading cached MIDI‐features for 'cake - the distance'
+Loading cached MIDI‐features for 'bee gees - massachusetts'
+Loading cached MIDI‐features for 'gene vincent - be bop a lula'
+Loading cached MIDI‐features for 'david gates - goodbye girl'
+Loading cached MIDI‐features for 'gene chandler - duke of earl'
+Loading cached MIDI‐features for 'the corrs - so young'
+Loading cached MIDI‐features for 'the corrs - i know my love'
+Loading cached MIDI‐features for 'eric carmen - hungry eyes'
+Loading cached MIDI‐features for 'billy joel - scenes from an italian restaurant'
+Loading cached MIDI‐features for 'abba - dancing queen'
+Loading cached MIDI‐features for 'the eagles - desperado'
+Loading cached MIDI‐features for 'the cure - close to me'
+Loading cached MIDI‐features for 'edwin starr - war'
+Loading cached MIDI‐features for 'the eagles - heartache tonight'
+Loading cached MIDI‐features for 'christina aguilera - genie in a bottle'
+Loading cached MIDI‐features for 'chris isaak - wicked game'
+Loading cached MIDI‐features for 'eagle eye cherry - save tonight'
+Loading cached MIDI‐features for 'cyndi lauper - true colors'
+Loading cached MIDI‐features for 'america - tin man'
+Loading cached MIDI‐features for 'backstreet boys - show me the meaning'
+Loading cached MIDI‐features for 'exile - kiss you all over'
+Loading cached MIDI‐features for 'falco - rock me amadeus'
+Loading cached MIDI‐features for 'al stewart - time passages'
+Loading cached MIDI‐features for 'boz scaggs - lido shuffle'
+Loading cached MIDI‐features for 'dionne warwick - walk on by'
+Loading cached MIDI‐features for 'don henley - end of the innocence'
+Loading cached MIDI‐features for 'blackstreet - take me there'
+Loading cached MIDI‐features for 'ace of base - all that she wants'
+Loading cached MIDI‐features for 'carly simon - nobody does it better'
+Loading cached MIDI‐features for 'christmas carols - angels we have heard on high'
+Loading cached MIDI‐features for 'billy joel - movin' out'
+Loading cached MIDI‐features for 'britney spears - born to make you happy'
+Loading cached MIDI‐features for 'billy ocean - suddenly'
+Loading cached MIDI‐features for 'christmas carols - frosty the snowman'
+Loading cached MIDI‐features for 'cliff richard - devil woman'
+Loading cached MIDI‐features for 'barbra streisand - woman in love'
+Loading cached MIDI‐features for 'genesis - fifth of fifth'
+Loading cached MIDI‐features for 'the eagles - already gone'
+Loading cached MIDI‐features for 'backstreet boys - shape of my heart'
+Loading cached MIDI‐features for 'bobby vinton - blue velvet'
+Loading cached MIDI‐features for 'the four seasons - sherry'
+Loading cached MIDI‐features for 'glen campbell - by the time i get to phoenix'
+Loading cached MIDI‐features for 'gerry rafferty - right down the line'
+Loading cached MIDI‐features for 'the coasters - yakety yak'
+Loading cached MIDI‐features for 'the eagles - take it easy'
+Loading cached MIDI‐features for 'chicago - wishing you were here'
+Loading cached MIDI‐features for 'the eagles - best of my love'
+Loading cached MIDI‐features for 'the corrs - queen of hollywood'
+Loading cached MIDI‐features for 'barry manilow - mandy'
+Loading cached MIDI‐features for 'christmas carols - do you hear what i hear'
+Loading cached MIDI‐features for 'diana ross - theme from mahogany'
+Loading cached MIDI‐features for 'eminem - superman'
+Loading cached MIDI‐features for 'agnes obel - familiar'
+Loading cached MIDI‐features for 'cranberries - linger'
+Loading cached MIDI‐features for 'christopher cross - sailing'
+Loading cached MIDI‐features for 'the drifters - this magic moment'
+Loading cached MIDI‐features for 'chuck mangione - feels so good'
+Loading cached MIDI‐features for 'bob welch - sentimental lady'
+Loading cached MIDI‐features for 'george michael - faith'
+Loading cached MIDI‐features for 'the corrs - radio'
+Loading cached MIDI‐features for 'billy joel - tell her about it'
+Loading cached MIDI‐features for 'eric carmen - all by myself'
+Loading cached MIDI‐features for 'genesis - afterglow'
+Loading cached MIDI‐features for 'christmas carols - silver bells'
+Loading cached MIDI‐features for 'beastie boys - intergalactic'
+Loading cached MIDI‐features for 'the eagles - victim of love'
+Loading cached MIDI‐features for 'bananarama - cruel summer'
+Loading cached MIDI‐features for 'billy idol - eyes without a face'
+Loading cached MIDI‐features for 'blaque - bring it all to me'
+Loading cached MIDI‐features for 'barbra streisand - the way we were'
+Loading cached MIDI‐features for 'the four seasons - dawn go away'
+Loading cached MIDI‐features for 'dr dre - forgot about dre'
+Loading cached MIDI‐features for 'the fugees - no woman no cry'
+Loading cached MIDI‐features for 'bad english - when i see you smile'
+Loading cached MIDI‐features for 'chic - le freak'
+Loading cached MIDI‐features for 'the eagles - wasted time'
+Loading cached MIDI‐features for 'chicago - 25 or 6 to 4'
+Loading cached MIDI‐features for 'eminem - bad meets evil'
+Loading cached MIDI‐features for 'barenaked ladies - one week'
+Loading cached MIDI‐features for 'donovan - mellow yellow'
+Loading cached MIDI‐features for 'britney spears - from the bottom of my broken heart'
+Loading cached MIDI‐features for 'boyzone - a different beat'
+Loading cached MIDI‐features for 'aladdin - a whole new world'
+Loading cached MIDI‐features for 'gladys knight - midnight train to georgia'
+Loading cached MIDI‐features for 'christmas carols - joy to the world'
+Loading cached MIDI‐features for 'bruce hornsby - the way it is'
+Loading cached MIDI‐features for 'alan parsons - ammonia avenue'
+Loading cached MIDI‐features for 'george benson - turn your love around'
+Loading cached MIDI‐features for 'donna summer - on the radio'
+Loading cached MIDI‐features for 'brian mcknight - anytime'
+Loading cached MIDI‐features for 'christmas carols - the first noel'
+Loading cached MIDI‐features for 'christmas carols - sleigh ride'
+Loading cached MIDI‐features for 'cranberries - cordell'
+Loading cached MIDI‐features for 'the eagles - the sad cafe'
+Loading cached MIDI‐features for 'falco - der kommissar'
+Loading cached MIDI‐features for 'bee gees - tragedy'
+Loading cached MIDI‐features for 'fatboy slim - going out of my head'
+Loading cached MIDI‐features for 'geri halliwell - look at me'
+Loading cached MIDI‐features for 'celine dion - falling into you'
+Loading cached MIDI‐features for '2 unlimited - let the beat control your body'
+Loading cached MIDI‐features for 'eminem - the way i am'
+Loading cached MIDI‐features for 'bee gees - how deep is your love'
+Loading cached MIDI‐features for 'britney spears - don't let me be the last to know'
+Loading cached MIDI‐features for 'blink 182 - dumpweed'
+Loading cached MIDI‐features for 'coolio - too hot'
+Loading cached MIDI‐features for 'another level - freak me'
+Loading cached MIDI‐features for 'en vogue - my lovin'
+Loading cached MIDI‐features for 'gary lewis and the playboys - everybody loves a clown'
+Loading cached MIDI‐features for 'britney spears - soda pop'
+Loading cached MIDI‐features for 'bj thomas - hooked on a feeling'
+Loading cached MIDI‐features for 'bone thugs n harmony - look into my eyes'
+Loading cached MIDI‐features for 'dionne warwick - do you know the way to san jose'
+Loading cached MIDI‐features for 'fugazi - waiting room'
+Loading cached MIDI‐features for 'aaron neville - tell it like it is'
+Loading cached MIDI‐features for 'abba - thank you for the music'
+Loading cached MIDI‐features for 'garth brooks - two pina coladas'
+Loading cached MIDI‐features for 'cat stevens - father and son'
+Loading cached MIDI‐features for 'donna summer - i feel love'
+Loading cached MIDI‐features for 'abba - money money money'
+Loading cached MIDI‐features for 'chicago - beginnings'
+Loading cached MIDI‐features for 'bill withers - just the two of us'
+Loading cached MIDI‐features for 'def leppard - photograph'
+Loading cached MIDI‐features for 'david seville - witch doctor'
+Loading cached MIDI‐features for 'abc - the look of love'
+Loading cached MIDI‐features for 'billy idol - flesh for fantasy'
+Loading cached MIDI‐features for 'genesis - paperlate'
+Loading cached MIDI‐features for 'christmas carols - little drummer boy'
+Loading cached MIDI‐features for 'dionne warwick - heartbreaker'
+Loading cached MIDI‐features for 'billy idol - dancing with myself'
+Loading cached MIDI‐features for 'beau brummels - laugh laugh'
+Loading cached MIDI‐features for 'dionne warwick - i say a little prayer'
+Loading cached MIDI‐features for 'everclear - father of mine'
+Loading cached MIDI‐features for 'billie myers - kiss the rain'
+Loading cached MIDI‐features for 'don henley - new york minute'
+Loading cached MIDI‐features for 'debbie gibson - foolish beat'
+Loading cached MIDI‐features for 'the carpenters - rainy days and mondays'
+Loading cached MIDI‐features for 'depeche mode - enjoy the silence'
+Loading cached MIDI‐features for 'ed sheeran - thinking out loud'
+Loading cached MIDI‐features for 'the corrs - no good for me'
+Loading cached MIDI‐features for 'anne murray - snowbird'
+Loading cached MIDI‐features for 'bee gees - love you inside out'
+Loading cached MIDI‐features for 'eminem - the real slim shady'
+Loading cached MIDI‐features for 'donovan - sunshine superman'
+Loading cached MIDI‐features for 'fastball - the way'
+Loading cached MIDI‐features for 'cherry poppin daddies - zoot suit riot'
+Loading cached MIDI‐features for 'billy joel - you may be right'
+Loading cached MIDI‐features for 'the eagles - peaceful easy feeling'
+Loading cached MIDI‐features for '911 - the day we find love'
+Loading cached MIDI‐features for 'canned heat - going up the country'
+Loading cached MIDI‐features for 'freddie mercury - living on my own'
+Loading cached MIDI‐features for 'beastie boys - sabotage'
+Loading cached MIDI‐features for 'backstreet boys - i want it that way'
+Loading cached MIDI‐features for '5ive - slam dunk da funk'
+Loading cached MIDI‐features for 'the eagles - please come home for christmas'
+Loading cached MIDI‐features for 'the eagles - love will keep us alive'
+Loading cached MIDI‐features for 'connie francis - stupid cupid'
+Loading cached MIDI‐features for 'gary wright - love is alive'
+Loading cached MIDI‐features for 'genesis - a trick of the tail'
+Loading cached MIDI‐features for 'alan parsons - prime time'
+Loading cached MIDI‐features for 'bananarama - venus'
+Loading cached MIDI‐features for 'billy joel - piano man'
+Loading cached MIDI‐features for 'the corrs - someday'
+Loading cached MIDI‐features for 'aaliyah - try again'
+Loading cached MIDI‐features for 'celine dion - to love you more'
+Loading cached MIDI‐features for 'curtis mayfield - move on up'
+Loading cached MIDI‐features for 'backstreet boys - i'll never break your heart'
+Loading cached MIDI‐features for 'genesis - jesus he knows me'
+Loading cached MIDI‐features for 'the corrs - remember'
+Loading cached MIDI‐features for 'eiffel 65 - dub in life'
+Loading cached MIDI‐features for 'al stewart - on the border'
+Loading cached MIDI‐features for 'abba - waterloo'
+Loading cached MIDI‐features for 'britney spears - stronger'
+Loading cached MIDI‐features for 'brandy - i wanna be down'
+Loading cached MIDI‐features for 'fiona apple - criminal'
+Loading cached MIDI‐features for 'christopher cross - ride like the wind'
+Loading cached MIDI‐features for 'bee gees - how can you mend a broken heart'
+Loading cached MIDI‐features for 'everlast - what its like'
+Loading cached MIDI‐features for 'aretha franklin - you make me feel like a natural woman'
+Loading cached MIDI‐features for 'classics iv - stormy'
+Loading cached MIDI‐features for 'asia - heat of the moment'
+Loading cached MIDI‐features for 'christina aguilera - come on over'
+Loading cached MIDI‐features for 'abba - sos'
+Loading cached MIDI‐features for 'the buckinghams - mercy mercy mercy'
+Loading cached MIDI‐features for 'eels - your lucky day in hell'
+Loading cached MIDI‐features for 'the corrs - rainy day'
+Loading cached MIDI‐features for 'freddie king - hideaway'
+Loading cached MIDI‐features for 'celine dion - because you loved me'
+Loading cached MIDI‐features for 'america - lonely people'
+Loading cached MIDI‐features for 'ben e king - stand by me'
+Loading cached MIDI‐features for 'george benson - give me the night'
+Loading cached MIDI‐features for 'the corrs - dreams'
+Loading cached MIDI‐features for 'backstreet boys - my heart stays with you'
+Loading cached MIDI‐features for 'the corrs - i never loved you anyway'
+Loading cached MIDI‐features for 'badfinger - baby blue'
+Loading cached MIDI‐features for 'all saints - lady marmelade'
+Loading cached MIDI‐features for 'celine dion - all by myself'
+Loading cached MIDI‐features for 'bertie higgins - key largo'
+Loading cached MIDI‐features for 'chic - good times'
+Loading cached MIDI‐features for 'busta rhymes - put your hands where my eyes could see'
+Loading cached MIDI‐features for 'dmx - party up'
+Loading cached MIDI‐features for 'christmas carols - o holy night'
+Loading cached MIDI‐features for 'dusty springfield - i only want to be with you'
+Loading cached MIDI‐features for 'gino vannelli - i just wanna stop'
+Loading cached MIDI‐features for 'cher - shoop shoop song'
+Loading cached MIDI‐features for 'bette midler - the rose'
+Loading cached MIDI‐features for 'the buckinghams - kind of a drag'
+Loading cached MIDI‐features for 'frankie goes to hollywood - relax'
+Loading cached MIDI‐features for 'cyndi lauper - girls just want to have fun'
+Loading cached MIDI‐features for 'the corrs - forgiven not forgotten'
+Loading cached MIDI‐features for 'etta james - at last'
+Loading cached MIDI‐features for 'babyface - when can i see you again'
+Loading cached MIDI‐features for 'the fugees - killing me softly'
+Loading cached MIDI‐features for 'the fixx - one thing leads to another'
+Loading cached MIDI‐features for 'elton john - candle in the wind'
+Loading cached MIDI‐features for 'the eagles - try and love again'
+Loading cached MIDI‐features for 'celine dion - immortality'
+Loading cached MIDI‐features for 'counting crows - round here'
+Loading cached MIDI‐features for 'billy joel - the longest time'
+Loading cached MIDI‐features for 'the eagles - pretty maids all in a row'
+Loading cached MIDI‐features for 'babyface - change the world'
+Loading cached MIDI‐features for 'bee gees - more than a woman'
+Loading cached MIDI‐features for 'bob dylan - subterranean homesick blues'
+Loading cached MIDI‐features for 'backstreet boys - no one else comes close'
+Loading cached MIDI‐features for 'cranberries - zombie'
+Loading cached MIDI‐features for 'ace of base - don't turn around'
+Loading cached MIDI‐features for 'gerry and the pacemakers - how do you do it'
+Loading cached MIDI‐features for 'eric clapton - bell bottom blues'
+Loading cached MIDI‐features for 'the drifters - under the boardwalk'
+Loading cached MIDI‐features for 'elmore james - dust my broom'
+Loading cached MIDI‐features for 'billy ray cyrus - achy breaky heart'
+Loading cached MIDI‐features for 'donny osmond - puppy love'
+Loading cached MIDI‐features for 'the eagles - new kid in town'
+Loading cached MIDI‐features for 'andy kim - baby i love you'
+Loading cached MIDI‐features for 'debby boone - you light up my life'
+Loading cached MIDI‐features for 'the eagles - lyin eyes'
+Loading cached MIDI‐features for 'george strait - i just want to dance with you'
+Loading cached MIDI‐features for 'america - ventura highway'
+Loading cached MIDI‐features for 'fats domino - blueberry hill'
+Loading cached MIDI‐features for 'bloodhound gang - the bad touch'
+Loading cached MIDI‐features for '2 unlimited - twilight zone'
+Loading cached MIDI‐features for 'backstreet boys - quit playing games with my heart'
+Loading cached MIDI‐features for 'faithless - god is a dj'
+Loading cached MIDI‐features for 'blur - tender'
+Loading cached MIDI‐features for 'faith evans - love like this'
+Loading cached MIDI‐features for '98 degrees - the hardest thing'
+Loading cached MIDI‐features for 'bloodhound gang - fire water burn'
+Loading cached MIDI‐features for 'the corrs - secret life'
+Loading cached MIDI‐features for 'all saints - bootie call'
+Loading cached MIDI‐features for 'boz scaggs - what can i say'
+Loading cached MIDI‐features for 'enrique iglesias - bailamos'
+Loading cached MIDI‐features for 'barry manilow - even now'
+Loading cached MIDI‐features for 'the corrs - the right time'
+Loading cached MIDI‐features for 'billy joel - just the way you are'
+Loading cached MIDI‐features for 'the eagles - tequila sunrise'
+Loading cached MIDI‐features for 'aretha franklin - think'
+Loading cached MIDI‐features for 'genesis - abacab'
+Loading cached MIDI‐features for 'brownsville station - smokin in the boys room'
+Loading cached MIDI‐features for 'bread - guitar man'
+Loading cached MIDI‐features for 'goldfinger - mable'
+Loading cached MIDI‐features for 'celine dion - the colour of my love'
+Loading cached MIDI‐features for 'cyndi lauper - she bop'
+Loading cached MIDI‐features for 'a - a'
+Loading cached MIDI‐features for 'bobby fuller four - i fought the law'
+Loading cached MIDI‐features for 'culture club - do you really want to hurt me'
+Loading cached MIDI‐features for 'abba - the winner takes it all'
+Loading cached MIDI‐features for 'bad religion - a walk'
+Loading cached MIDI‐features for 'freda payne - band of gold'
+Loading cached MIDI‐features for 'firefall - you are the woman'
+Loading cached MIDI‐features for 'billy preston - will it go round in circles'
+Loading cached MIDI‐features for 'america - sister golden hair'
+Loading cached MIDI‐features for 'chicago - saturday in the park'
+Loading cached MIDI‐features for 'another level - i want you for myself'
+Loading cached MIDI‐features for 'the four seasons - rag doll'
+Loading cached MIDI‐features for 'buddy guy - midnight train'
+Loading cached MIDI‐features for 'bobby darin - mack the knife'
+Loading cached MIDI‐features for 'the carpenters - hurting each other'
+Loading cached MIDI‐features for 'the corrs - what can i do'
+Loading cached MIDI‐features for 'glenn frey - you belong to the city'
+Loading cached MIDI‐features for 'the byrds - turn turn turn'
+Loading cached MIDI‐features for 'bee gees - i started a joke'
+Loading cached MIDI‐features for 'the babys - midnight rendezvous'
+Loading cached MIDI‐features for 'barry manilow - copacabana'
+Loading cached MIDI‐features for 'gary wright - dream weaver'
+[Epoch 1/50] train_loss: 7.6867  val_loss: 6.4985  Jaccard: 0.020  Cosine: 0.641
+New best score (6.498455).
+[Epoch 2/50] train_loss: 6.5496  val_loss: 6.4370  Jaccard: 0.011  Cosine: 0.641
+Validation loss decreased (6.437050 --> 6.437050).
+[Epoch 3/50] train_loss: 6.4185  val_loss: 6.4146  Jaccard: 0.010  Cosine: 0.641
+Validation loss decreased (6.414644 --> 6.414644).
+[Epoch 4/50] train_loss: 6.3905  val_loss: 6.4261  Jaccard: 0.010  Cosine: 0.641
+EarlyStopping counter: 1 out of 20
+[Epoch 5/50] train_loss: 6.3685  val_loss: 6.4261  Jaccard: 0.011  Cosine: 0.470
+EarlyStopping counter: 2 out of 20
+[Epoch 6/50] train_loss: 6.3406  val_loss: 6.4370  Jaccard: 0.021  Cosine: 0.642
+EarlyStopping counter: 3 out of 20
+[Epoch 7/50] train_loss: 6.3311  val_loss: 6.4087  Jaccard: 0.032  Cosine: 0.653
+Validation loss decreased (6.408678 --> 6.408678).
+[Epoch 8/50] train_loss: 6.2753  val_loss: 6.3158  Jaccard: 0.027  Cosine: 0.643
+Validation loss decreased (6.315802 --> 6.315802).
+[Epoch 9/50] train_loss: 6.1444  val_loss: 6.1390  Jaccard: 0.037  Cosine: 0.648
+Validation loss decreased (6.138990 --> 6.138990).
+[Epoch 10/50] train_loss: 5.9859  val_loss: 5.9272  Jaccard: 0.034  Cosine: 0.655
+Validation loss decreased (5.927245 --> 5.927245).
+[Epoch 11/50] train_loss: 5.7864  val_loss: 5.7352  Jaccard: 0.034  Cosine: 0.618
+Validation loss decreased (5.735218 --> 5.735218).
+[Epoch 12/50] train_loss: 5.5929  val_loss: 5.6259  Jaccard: 0.061  Cosine: 0.743
+Validation loss decreased (5.625938 --> 5.625938).
+[Epoch 13/50] train_loss: 5.5106  val_loss: 5.5292  Jaccard: 0.055  Cosine: 0.740
+Validation loss decreased (5.529247 --> 5.529247).
+[Epoch 14/50] train_loss: 5.3694  val_loss: 5.3895  Jaccard: 0.067  Cosine: 0.744
+Validation loss decreased (5.389501 --> 5.389501).
+[Epoch 15/50] train_loss: 5.2139  val_loss: 5.2748  Jaccard: 0.076  Cosine: 0.799
+Validation loss decreased (5.274787 --> 5.274787).
+[Epoch 16/50] train_loss: 5.0548  val_loss: 5.1149  Jaccard: 0.088  Cosine: 0.789
+Validation loss decreased (5.114936 --> 5.114936).
+[Epoch 17/50] train_loss: 4.9081  val_loss: 4.9945  Jaccard: 0.107  Cosine: 0.812
+Validation loss decreased (4.994478 --> 4.994478).
+[Epoch 18/50] train_loss: 4.7235  val_loss: 4.7874  Jaccard: 0.126  Cosine: 0.805
+Validation loss decreased (4.787399 --> 4.787399).
+[Epoch 19/50] train_loss: 4.5299  val_loss: 4.6129  Jaccard: 0.152  Cosine: 0.841
+Validation loss decreased (4.612909 --> 4.612909).
+[Epoch 20/50] train_loss: 4.2692  val_loss: 4.4349  Jaccard: 0.165  Cosine: 0.853
+Validation loss decreased (4.434877 --> 4.434877).
+[Epoch 21/50] train_loss: 4.0636  val_loss: 4.2456  Jaccard: 0.188  Cosine: 0.863
+Validation loss decreased (4.245637 --> 4.245637).
+[Epoch 22/50] train_loss: 3.8834  val_loss: 4.0576  Jaccard: 0.198  Cosine: 0.871
+Validation loss decreased (4.057595 --> 4.057595).
+[Epoch 23/50] train_loss: 3.6965  val_loss: 3.9777  Jaccard: 0.220  Cosine: 0.883
+Validation loss decreased (3.977741 --> 3.977741).
+[Epoch 24/50] train_loss: 3.5306  val_loss: 3.8246  Jaccard: 0.235  Cosine: 0.896
+Validation loss decreased (3.824553 --> 3.824553).
+[Epoch 25/50] train_loss: 3.3826  val_loss: 3.6356  Jaccard: 0.242  Cosine: 0.899
+Validation loss decreased (3.635597 --> 3.635597).
+[Epoch 26/50] train_loss: 3.2050  val_loss: 3.4825  Jaccard: 0.255  Cosine: 0.911
+Validation loss decreased (3.482541 --> 3.482541).
+[Epoch 27/50] train_loss: 3.0424  val_loss: 3.3514  Jaccard: 0.286  Cosine: 0.923
+Validation loss decreased (3.351396 --> 3.351396).
+[Epoch 28/50] train_loss: 2.8275  val_loss: 3.2028  Jaccard: 0.290  Cosine: 0.925
+Validation loss decreased (3.202757 --> 3.202757).
+[Epoch 29/50] train_loss: 2.6840  val_loss: 3.2628  Jaccard: 0.297  Cosine: 0.929
+EarlyStopping counter: 1 out of 20
+[Epoch 30/50] train_loss: 2.5394  val_loss: 3.0194  Jaccard: 0.323  Cosine: 0.731
+Validation loss decreased (3.019414 --> 3.019414).
+[Epoch 31/50] train_loss: 2.4095  val_loss: 2.9475  Jaccard: 0.339  Cosine: 0.648
+Validation loss decreased (2.947472 --> 2.947472).
+[Epoch 32/50] train_loss: 2.3322  val_loss: 2.9446  Jaccard: 0.335  Cosine: 0.646
+Validation loss decreased (2.944554 --> 2.944554).
+[Epoch 33/50] train_loss: 2.2143  val_loss: 2.8346  Jaccard: 0.368  Cosine: 0.684
+Validation loss decreased (2.834572 --> 2.834572).
+[Epoch 34/50] train_loss: 2.1327  val_loss: 2.9194  Jaccard: 0.334  Cosine: 0.658
+EarlyStopping counter: 1 out of 20
+[Epoch 35/50] train_loss: 2.1098  val_loss: 2.8012  Jaccard: 0.385  Cosine: 0.637
+Validation loss decreased (2.801157 --> 2.801157).
+[Epoch 36/50] train_loss: 1.9498  val_loss: 2.7394  Jaccard: 0.400  Cosine: 0.634
+Validation loss decreased (2.739403 --> 2.739403).
+[Epoch 37/50] train_loss: 1.8877  val_loss: 2.6462  Jaccard: 0.422  Cosine: 0.656
+Validation loss decreased (2.646187 --> 2.646187).
+[Epoch 38/50] train_loss: 1.7812  val_loss: 2.5733  Jaccard: 0.433  Cosine: 0.636
+Validation loss decreased (2.573324 --> 2.573324).
+[Epoch 39/50] train_loss: 1.6583  val_loss: 2.5880  Jaccard: 0.445  Cosine: 0.661
+EarlyStopping counter: 1 out of 20
+[Epoch 40/50] train_loss: 1.5709  val_loss: 2.4968  Jaccard: 0.467  Cosine: 0.638
+Validation loss decreased (2.496848 --> 2.496848).
+[Epoch 41/50] train_loss: 1.4661  val_loss: 2.4332  Jaccard: 0.484  Cosine: 0.633
+Validation loss decreased (2.433168 --> 2.433168).
+[Epoch 42/50] train_loss: 1.4093  val_loss: 2.5338  Jaccard: 0.463  Cosine: 0.647
+EarlyStopping counter: 1 out of 20
+[Epoch 43/50] train_loss: 1.3433  val_loss: 2.2967  Jaccard: 0.504  Cosine: 0.676
+Validation loss decreased (2.296656 --> 2.296656).
+[Epoch 44/50] train_loss: 1.2705  val_loss: 2.3700  Jaccard: 0.515  Cosine: 0.650
+EarlyStopping counter: 1 out of 20
+[Epoch 45/50] train_loss: 1.2083  val_loss: 2.2816  Jaccard: 0.524  Cosine: 0.661
+Validation loss decreased (2.281565 --> 2.281565).
+[Epoch 46/50] train_loss: 1.1369  val_loss: 2.3101  Jaccard: 0.526  Cosine: 0.651
+EarlyStopping counter: 1 out of 20
+[Epoch 47/50] train_loss: 1.0772  val_loss: 2.3090  Jaccard: 0.552  Cosine: 0.598
+EarlyStopping counter: 2 out of 20
+[Epoch 48/50] train_loss: 1.0285  val_loss: 2.2289  Jaccard: 0.553  Cosine: 0.610
+Validation loss decreased (2.228854 --> 2.228854).
+[Epoch 49/50] train_loss: 0.9931  val_loss: 2.1354  Jaccard: 0.573  Cosine: 0.648
+Validation loss decreased (2.135367 --> 2.135367).
+wandb: uploading model_method_2.pth; uploading config.yaml
+wandb: uploading model_method_2.pth
+wandb: uploading data
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss ██▆▆▆▆▆▅▆▅▅▅▅▅▄▄▄▄▄▄▃▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁
+wandb:     epoch/cosine ▄▄▄▄▁▄▄▄▄▃▅▆▆▆▆▇▇▇▇████▅▄▄▄▄▃▄▄▄▃▄▄▄▄▃▃▃
+wandb:    epoch/jaccard ▁▁▁▁▁▁▁▁▁▁▂▂▂▂▂▃▃▃▃▄▄▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇███
+wandb:    epoch/lev_sim ▁▁▁▁▃▃▁▄▄▃▄▄▄▃▃▄▄▄▄▅▆▆▇▇█▅▆▅▆▆▆▇▇▇▇███▇█
+wandb:   epoch/polarity ▆▆▆▆▆▆▆▆▆▆▁▁▁▁▁▃▃▂▄▄▅▆▇▆▆▇▇▇▇▇▇▇▇▇██████
+wandb: epoch/train_loss █▇▇▇▇▇▇▆▆▆▆▅▅▅▅▄▄▄▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁
+wandb:   epoch/val_loss ███████▇▇▇▆▆▆▆▅▅▄▄▄▄▃▃▃▃▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 0.92379
+wandb:     epoch/cosine 0.6081
+wandb:    epoch/jaccard 0.57031
+wandb:    epoch/lev_sim 0.39383
+wandb:   epoch/polarity 0.9038
+wandb: epoch/train_loss 0.94738
+wandb:   epoch/val_loss 2.17488
+wandb: 
+wandb: 🚀 View run model2_opt at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/lyrics_rnn_model2/runs/xr22eg0t
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/lyrics_rnn_model2
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20250605_222311-xr22eg0t/logs
+[Epoch 50/50] train_loss: 0.9474  val_loss: 2.1749  Jaccard: 0.570  Cosine: 0.608
+EarlyStopping counter: 1 out of 20
+Training completed in 54.15 min
+Epoch 1/50  train_loss=7.6867  val_loss=6.4985  Jaccard=0.0201  Cosine=0.6414  LevSim=0.2022  Polarity=0.8400
+Epoch 2/50  train_loss=6.5496  val_loss=6.4370  Jaccard=0.0106  Cosine=0.6414  LevSim=0.1955  Polarity=0.8400
+Epoch 3/50  train_loss=6.4185  val_loss=6.4146  Jaccard=0.0103  Cosine=0.6414  LevSim=0.1991  Polarity=0.8400
+Epoch 4/50  train_loss=6.3905  val_loss=6.4261  Jaccard=0.0101  Cosine=0.6414  LevSim=0.1951  Polarity=0.8400
+Epoch 5/50  train_loss=6.3685  val_loss=6.4261  Jaccard=0.0113  Cosine=0.4701  LevSim=0.2382  Polarity=0.8400
+Epoch 6/50  train_loss=6.3406  val_loss=6.4370  Jaccard=0.0213  Cosine=0.6422  LevSim=0.1958  Polarity=0.8400
+Epoch 7/50  train_loss=6.3311  val_loss=6.4087  Jaccard=0.0322  Cosine=0.6532  LevSim=0.2489  Polarity=0.8400
+Epoch 8/50  train_loss=6.2753  val_loss=6.3158  Jaccard=0.0271  Cosine=0.6430  LevSim=0.1995  Polarity=0.8400
+Epoch 9/50  train_loss=6.1444  val_loss=6.1390  Jaccard=0.0368  Cosine=0.6483  LevSim=0.2612  Polarity=0.8400
+Epoch 10/50  train_loss=5.9859  val_loss=5.9272  Jaccard=0.0344  Cosine=0.6545  LevSim=0.2620  Polarity=0.8400
+Epoch 11/50  train_loss=5.7864  val_loss=5.7352  Jaccard=0.0345  Cosine=0.6175  LevSim=0.2529  Polarity=0.8131
+Epoch 12/50  train_loss=5.5929  val_loss=5.6259  Jaccard=0.0610  Cosine=0.7428  LevSim=0.2812  Polarity=0.6150
+Epoch 13/50  train_loss=5.5106  val_loss=5.5292  Jaccard=0.0551  Cosine=0.7400  LevSim=0.2798  Polarity=0.6150
+Epoch 14/50  train_loss=5.3694  val_loss=5.3895  Jaccard=0.0672  Cosine=0.7440  LevSim=0.2608  Polarity=0.6150
+Epoch 15/50  train_loss=5.2139  val_loss=5.2748  Jaccard=0.0758  Cosine=0.7987  LevSim=0.2679  Polarity=0.6150
+Epoch 16/50  train_loss=5.0548  val_loss=5.1149  Jaccard=0.0885  Cosine=0.7886  LevSim=0.2533  Polarity=0.6150
+Epoch 17/50  train_loss=4.9081  val_loss=4.9945  Jaccard=0.1069  Cosine=0.8120  LevSim=0.2551  Polarity=0.6150
+Epoch 18/50  train_loss=4.7235  val_loss=4.7874  Jaccard=0.1262  Cosine=0.8046  LevSim=0.2647  Polarity=0.6165
+Epoch 19/50  train_loss=4.5299  val_loss=4.6129  Jaccard=0.1520  Cosine=0.8405  LevSim=0.2622  Polarity=0.6977
+Epoch 20/50  train_loss=4.2692  val_loss=4.4349  Jaccard=0.1653  Cosine=0.8527  LevSim=0.2703  Polarity=0.7008
+Epoch 21/50  train_loss=4.0636  val_loss=4.2456  Jaccard=0.1879  Cosine=0.8625  LevSim=0.2656  Polarity=0.6539
+Epoch 22/50  train_loss=3.8834  val_loss=4.0576  Jaccard=0.1983  Cosine=0.8710  LevSim=0.2674  Polarity=0.7509
+Epoch 23/50  train_loss=3.6965  val_loss=3.9777  Jaccard=0.2199  Cosine=0.8826  LevSim=0.3040  Polarity=0.7518
+Epoch 24/50  train_loss=3.5306  val_loss=3.8246  Jaccard=0.2354  Cosine=0.8960  LevSim=0.3246  Polarity=0.7398
+Epoch 25/50  train_loss=3.3826  val_loss=3.6356  Jaccard=0.2423  Cosine=0.8986  LevSim=0.3207  Polarity=0.7723
+Epoch 26/50  train_loss=3.2050  val_loss=3.4825  Jaccard=0.2552  Cosine=0.9106  LevSim=0.3284  Polarity=0.7877
+Epoch 27/50  train_loss=3.0424  val_loss=3.3514  Jaccard=0.2858  Cosine=0.9227  LevSim=0.3558  Polarity=0.8110
+Epoch 28/50  train_loss=2.8275  val_loss=3.2028  Jaccard=0.2904  Cosine=0.9245  LevSim=0.3551  Polarity=0.8509
+Epoch 29/50  train_loss=2.6840  val_loss=3.2628  Jaccard=0.2973  Cosine=0.9293  LevSim=0.3596  Polarity=0.8220
+Epoch 30/50  train_loss=2.5394  val_loss=3.0194  Jaccard=0.3226  Cosine=0.7314  LevSim=0.3590  Polarity=0.8187
+Epoch 31/50  train_loss=2.4095  val_loss=2.9475  Jaccard=0.3389  Cosine=0.6482  LevSim=0.2961  Polarity=0.8373
+Epoch 32/50  train_loss=2.3322  val_loss=2.9446  Jaccard=0.3352  Cosine=0.6458  LevSim=0.2965  Polarity=0.8625
+Epoch 33/50  train_loss=2.2143  val_loss=2.8346  Jaccard=0.3684  Cosine=0.6838  LevSim=0.3243  Polarity=0.8562
+Epoch 34/50  train_loss=2.1327  val_loss=2.9194  Jaccard=0.3340  Cosine=0.6582  LevSim=0.3069  Polarity=0.8449
+Epoch 35/50  train_loss=2.1098  val_loss=2.8012  Jaccard=0.3854  Cosine=0.6371  LevSim=0.3119  Polarity=0.8735
+Epoch 36/50  train_loss=1.9498  val_loss=2.7394  Jaccard=0.3998  Cosine=0.6338  LevSim=0.3184  Polarity=0.8462
+Epoch 37/50  train_loss=1.8877  val_loss=2.6462  Jaccard=0.4218  Cosine=0.6559  LevSim=0.3395  Polarity=0.8610
+Epoch 38/50  train_loss=1.7812  val_loss=2.5733  Jaccard=0.4332  Cosine=0.6361  LevSim=0.3303  Polarity=0.8693
+Epoch 39/50  train_loss=1.6583  val_loss=2.5880  Jaccard=0.4452  Cosine=0.6608  LevSim=0.3548  Polarity=0.8754
+Epoch 40/50  train_loss=1.5709  val_loss=2.4968  Jaccard=0.4675  Cosine=0.6379  LevSim=0.3481  Polarity=0.8734
+Epoch 41/50  train_loss=1.4661  val_loss=2.4332  Jaccard=0.4839  Cosine=0.6327  LevSim=0.3482  Polarity=0.8625
+Epoch 42/50  train_loss=1.4093  val_loss=2.5338  Jaccard=0.4629  Cosine=0.6473  LevSim=0.3493  Polarity=0.8988
+Epoch 43/50  train_loss=1.3433  val_loss=2.2967  Jaccard=0.5035  Cosine=0.6764  LevSim=0.3824  Polarity=0.8785
+Epoch 44/50  train_loss=1.2705  val_loss=2.3700  Jaccard=0.5151  Cosine=0.6502  LevSim=0.3647  Polarity=0.8836
+Epoch 45/50  train_loss=1.2083  val_loss=2.2816  Jaccard=0.5239  Cosine=0.6611  LevSim=0.3633  Polarity=0.8836
+Epoch 46/50  train_loss=1.1369  val_loss=2.3101  Jaccard=0.5259  Cosine=0.6507  LevSim=0.3609  Polarity=0.8927
+Epoch 47/50  train_loss=1.0772  val_loss=2.3090  Jaccard=0.5522  Cosine=0.5983  LevSim=0.3374  Polarity=0.9001
+Epoch 48/50  train_loss=1.0285  val_loss=2.2289  Jaccard=0.5535  Cosine=0.6105  LevSim=0.3490  Polarity=0.8877
+Epoch 49/50  train_loss=0.9931  val_loss=2.1354  Jaccard=0.5729  Cosine=0.6485  LevSim=0.3705  Polarity=0.9013
+Epoch 50/50  train_loss=0.9474  val_loss=2.1749  Jaccard=0.5703  Cosine=0.6081  LevSim=0.3938  Polarity=0.9038
+saved model model_method_2.pth

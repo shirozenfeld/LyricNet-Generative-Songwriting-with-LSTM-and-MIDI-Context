@@ -1,0 +1,142 @@
+nohup: ignoring input
+wandb: Currently logged in as: shirmord (shirmord-ben-gurion-university-of-the-negev) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /sise/home/shirmord/hw/hw3/wandb/run-20250603_215325-vdbx2jme
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run model1_opt
+wandb: ⭐️ View project at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/lyrics_rnn_model1
+wandb: 🚀 View run at https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/lyrics_rnn_model1/runs/vdbx2jme
+wandb: uploading model_method_1.pth; uploading output.log; uploading wandb-summary.json; uploading config.yaml
+wandb: uploading model_method_1.pth
+wandb: uploading history steps 611-611, summary, console lines 66-69
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: batch/train_loss ████▇▄▄▃▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▂▂▁▁▁▂▁▂▁▂▁▂▂▁▁▁▂
+wandb:     epoch/cosine ▁██▅▁▇▁▇▁▇▁█▇▆▇▇▁▇▇▇▁▇▇▁▇▁▇█▇█▇▇█▇
+wandb:    epoch/jaccard ▁███▁█▁█▁█▁█████▁███▄██▂█▁████████
+wandb:    epoch/lev_sim ▁▄▄█▇▂▅▂▅▃▅▄▄▇▂▃▆▂▃▃▅▂▃▅▃▅▃▄▃▄▂▃▆▂
+wandb:   epoch/polarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: epoch/train_loss █▇▅▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   epoch/val_loss █▇▄▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb: batch/train_loss 6.46245
+wandb:     epoch/cosine 0.62081
+wandb:    epoch/jaccard 0.02195
+wandb:    epoch/lev_sim 0.14705
+wandb:   epoch/polarity 0.81435
+wandb: epoch/train_loss 6.39022
+wandb:   epoch/val_loss 6.52664
+wandb: 
+wandb: 🚀 View run model1_opt at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/lyrics_rnn_model1/runs/vdbx2jme
+wandb: ⭐️ View project at: https://wandb.ai/shirmord-ben-gurion-university-of-the-negev/lyrics_rnn_model1
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20250603_215325-vdbx2jme/logs
+7538
+Warning: No MIDI file found for artist-song_name in ./midi_files
+[Epoch 1/50] train_loss: 8.8755  val_loss: 8.8093  Jaccard: 0.011  Cosine: 0.435
+New best score (8.809315).
+[Epoch 2/50] train_loss: 8.6620  val_loss: 8.4117  Jaccard: 0.022  Cosine: 0.653
+Validation loss decreased (8.411724 --> 8.411724).
+[Epoch 3/50] train_loss: 7.9683  val_loss: 7.3376  Jaccard: 0.022  Cosine: 0.655
+Validation loss decreased (7.337632 --> 7.337632).
+[Epoch 4/50] train_loss: 7.0752  val_loss: 6.7497  Jaccard: 0.022  Cosine: 0.550
+Validation loss decreased (6.749691 --> 6.749691).
+[Epoch 5/50] train_loss: 6.7591  val_loss: 6.6410  Jaccard: 0.012  Cosine: 0.445
+Validation loss decreased (6.640950 --> 6.640950).
+[Epoch 6/50] train_loss: 6.6529  val_loss: 6.5728  Jaccard: 0.022  Cosine: 0.621
+Validation loss decreased (6.572793 --> 6.572793).
+[Epoch 7/50] train_loss: 6.5957  val_loss: 6.5586  Jaccard: 0.012  Cosine: 0.445
+Validation loss decreased (6.558649 --> 6.558649).
+[Epoch 8/50] train_loss: 6.5668  val_loss: 6.5530  Jaccard: 0.022  Cosine: 0.621
+Validation loss decreased (6.552961 --> 6.552961).
+[Epoch 9/50] train_loss: 6.5533  val_loss: 6.5314  Jaccard: 0.012  Cosine: 0.444
+Validation loss decreased (6.531445 --> 6.531445).
+[Epoch 10/50] train_loss: 6.5311  val_loss: 6.5401  Jaccard: 0.022  Cosine: 0.621
+EarlyStopping counter: 1 out of 20
+[Epoch 11/50] train_loss: 6.5090  val_loss: 6.5512  Jaccard: 0.012  Cosine: 0.444
+EarlyStopping counter: 2 out of 20
+[Epoch 12/50] train_loss: 6.5049  val_loss: 6.5441  Jaccard: 0.022  Cosine: 0.651
+EarlyStopping counter: 3 out of 20
+[Epoch 13/50] train_loss: 6.4909  val_loss: 6.5448  Jaccard: 0.022  Cosine: 0.621
+EarlyStopping counter: 4 out of 20
+[Epoch 14/50] train_loss: 6.4812  val_loss: 6.5111  Jaccard: 0.022  Cosine: 0.588
+Validation loss decreased (6.511103 --> 6.511103).
+[Epoch 15/50] train_loss: 6.4748  val_loss: 6.5349  Jaccard: 0.022  Cosine: 0.621
+EarlyStopping counter: 1 out of 20
+[Epoch 16/50] train_loss: 6.4643  val_loss: 6.5422  Jaccard: 0.022  Cosine: 0.621
+EarlyStopping counter: 2 out of 20
+[Epoch 17/50] train_loss: 6.4574  val_loss: 6.5336  Jaccard: 0.012  Cosine: 0.444
+EarlyStopping counter: 3 out of 20
+[Epoch 18/50] train_loss: 6.4531  val_loss: 6.5436  Jaccard: 0.022  Cosine: 0.621
+EarlyStopping counter: 4 out of 20
+[Epoch 19/50] train_loss: 6.4445  val_loss: 6.5401  Jaccard: 0.022  Cosine: 0.621
+EarlyStopping counter: 5 out of 20
+[Epoch 20/50] train_loss: 6.4419  val_loss: 6.5418  Jaccard: 0.022  Cosine: 0.621
+EarlyStopping counter: 6 out of 20
+[Epoch 21/50] train_loss: 6.4381  val_loss: 6.5200  Jaccard: 0.016  Cosine: 0.445
+EarlyStopping counter: 7 out of 20
+[Epoch 22/50] train_loss: 6.4328  val_loss: 6.5392  Jaccard: 0.022  Cosine: 0.621
+EarlyStopping counter: 8 out of 20
+[Epoch 23/50] train_loss: 6.4287  val_loss: 6.5366  Jaccard: 0.022  Cosine: 0.621
+EarlyStopping counter: 9 out of 20
+[Epoch 24/50] train_loss: 6.4271  val_loss: 6.5390  Jaccard: 0.012  Cosine: 0.444
+EarlyStopping counter: 10 out of 20
+[Epoch 25/50] train_loss: 6.4192  val_loss: 6.5366  Jaccard: 0.022  Cosine: 0.621
+EarlyStopping counter: 11 out of 20
+[Epoch 26/50] train_loss: 6.4160  val_loss: 6.5366  Jaccard: 0.012  Cosine: 0.443
+EarlyStopping counter: 12 out of 20
+[Epoch 27/50] train_loss: 6.4125  val_loss: 6.5462  Jaccard: 0.022  Cosine: 0.621
+EarlyStopping counter: 13 out of 20
+[Epoch 28/50] train_loss: 6.4138  val_loss: 6.5412  Jaccard: 0.022  Cosine: 0.641
+EarlyStopping counter: 14 out of 20
+[Epoch 29/50] train_loss: 6.4107  val_loss: 6.5333  Jaccard: 0.022  Cosine: 0.630
+EarlyStopping counter: 15 out of 20
+[Epoch 30/50] train_loss: 6.4074  val_loss: 6.5492  Jaccard: 0.022  Cosine: 0.655
+EarlyStopping counter: 16 out of 20
+[Epoch 31/50] train_loss: 6.3975  val_loss: 6.5417  Jaccard: 0.022  Cosine: 0.622
+EarlyStopping counter: 17 out of 20
+[Epoch 32/50] train_loss: 6.3995  val_loss: 6.5406  Jaccard: 0.022  Cosine: 0.622
+EarlyStopping counter: 18 out of 20
+[Epoch 33/50] train_loss: 6.3972  val_loss: 6.5356  Jaccard: 0.022  Cosine: 0.643
+EarlyStopping counter: 19 out of 20
+[Epoch 34/50] train_loss: 6.3902  val_loss: 6.5266  Jaccard: 0.022  Cosine: 0.621
+EarlyStopping counter: 20 out of 20
+Early stopping triggered.
+Training completed in 65.57 min
+Epoch 1/34  train_loss=8.8755  val_loss=8.8093  Jaccard=0.0113  Cosine=0.4346  LevSim=0.1380  Polarity=0.8143
+Epoch 2/34  train_loss=8.6620  val_loss=8.4117  Jaccard=0.0220  Cosine=0.6525  LevSim=0.1665  Polarity=0.8143
+Epoch 3/34  train_loss=7.9683  val_loss=7.3376  Jaccard=0.0220  Cosine=0.6551  LevSim=0.1671  Polarity=0.8143
+Epoch 4/34  train_loss=7.0752  val_loss=6.7497  Jaccard=0.0217  Cosine=0.5502  LevSim=0.2032  Polarity=0.8143
+Epoch 5/34  train_loss=6.7591  val_loss=6.6410  Jaccard=0.0117  Cosine=0.4452  LevSim=0.1900  Polarity=0.8143
+Epoch 6/34  train_loss=6.6529  val_loss=6.5728  Jaccard=0.0221  Cosine=0.6210  LevSim=0.1462  Polarity=0.8143
+Epoch 7/34  train_loss=6.5957  val_loss=6.5586  Jaccard=0.0117  Cosine=0.4451  LevSim=0.1746  Polarity=0.8143
+Epoch 8/34  train_loss=6.5668  val_loss=6.5530  Jaccard=0.0219  Cosine=0.6210  LevSim=0.1480  Polarity=0.8143
+Epoch 9/34  train_loss=6.5533  val_loss=6.5314  Jaccard=0.0117  Cosine=0.4437  LevSim=0.1769  Polarity=0.8143
+Epoch 10/34  train_loss=6.5311  val_loss=6.5401  Jaccard=0.0219  Cosine=0.6211  LevSim=0.1574  Polarity=0.8143
+Epoch 11/34  train_loss=6.5090  val_loss=6.5512  Jaccard=0.0117  Cosine=0.4437  LevSim=0.1766  Polarity=0.8143
+Epoch 12/34  train_loss=6.5049  val_loss=6.5441  Jaccard=0.0220  Cosine=0.6509  LevSim=0.1672  Polarity=0.8143
+Epoch 13/34  train_loss=6.4909  val_loss=6.5448  Jaccard=0.0221  Cosine=0.6214  LevSim=0.1666  Polarity=0.8143
+Epoch 14/34  train_loss=6.4812  val_loss=6.5111  Jaccard=0.0220  Cosine=0.5882  LevSim=0.1929  Polarity=0.8143
+Epoch 15/34  train_loss=6.4748  val_loss=6.5349  Jaccard=0.0220  Cosine=0.6211  LevSim=0.1501  Polarity=0.8143
+Epoch 16/34  train_loss=6.4643  val_loss=6.5422  Jaccard=0.0218  Cosine=0.6213  LevSim=0.1542  Polarity=0.8143
+Epoch 17/34  train_loss=6.4574  val_loss=6.5336  Jaccard=0.0119  Cosine=0.4436  LevSim=0.1836  Polarity=0.8143
+Epoch 18/34  train_loss=6.4531  val_loss=6.5436  Jaccard=0.0221  Cosine=0.6210  LevSim=0.1495  Polarity=0.8143
+Epoch 19/34  train_loss=6.4445  val_loss=6.5401  Jaccard=0.0221  Cosine=0.6213  LevSim=0.1553  Polarity=0.8143
+Epoch 20/34  train_loss=6.4419  val_loss=6.5418  Jaccard=0.0218  Cosine=0.6213  LevSim=0.1567  Polarity=0.8143
+Epoch 21/34  train_loss=6.4381  val_loss=6.5200  Jaccard=0.0155  Cosine=0.4445  LevSim=0.1787  Polarity=0.8143
+Epoch 22/34  train_loss=6.4328  val_loss=6.5392  Jaccard=0.0219  Cosine=0.6210  LevSim=0.1479  Polarity=0.8143
+Epoch 23/34  train_loss=6.4287  val_loss=6.5366  Jaccard=0.0216  Cosine=0.6208  LevSim=0.1568  Polarity=0.8143
+Epoch 24/34  train_loss=6.4271  val_loss=6.5390  Jaccard=0.0124  Cosine=0.4437  LevSim=0.1765  Polarity=0.8143
+Epoch 25/34  train_loss=6.4192  val_loss=6.5366  Jaccard=0.0219  Cosine=0.6208  LevSim=0.1561  Polarity=0.8143
+Epoch 26/34  train_loss=6.4160  val_loss=6.5366  Jaccard=0.0116  Cosine=0.4426  LevSim=0.1766  Polarity=0.8143
+Epoch 27/34  train_loss=6.4125  val_loss=6.5462  Jaccard=0.0218  Cosine=0.6211  LevSim=0.1596  Polarity=0.8143
+Epoch 28/34  train_loss=6.4138  val_loss=6.5412  Jaccard=0.0221  Cosine=0.6413  LevSim=0.1627  Polarity=0.8143
+Epoch 29/34  train_loss=6.4107  val_loss=6.5333  Jaccard=0.0221  Cosine=0.6297  LevSim=0.1552  Polarity=0.8143
+Epoch 30/34  train_loss=6.4074  val_loss=6.5492  Jaccard=0.0221  Cosine=0.6551  LevSim=0.1659  Polarity=0.8143
+Epoch 31/34  train_loss=6.3975  val_loss=6.5417  Jaccard=0.0220  Cosine=0.6217  LevSim=0.1463  Polarity=0.8143
+Epoch 32/34  train_loss=6.3995  val_loss=6.5406  Jaccard=0.0218  Cosine=0.6219  LevSim=0.1563  Polarity=0.8143
+Epoch 33/34  train_loss=6.3972  val_loss=6.5356  Jaccard=0.0221  Cosine=0.6425  LevSim=0.1885  Polarity=0.8143
+Epoch 34/34  train_loss=6.3902  val_loss=6.5266  Jaccard=0.0219  Cosine=0.6208  LevSim=0.1470  Polarity=0.8143
+saved model model_method_1.pth
