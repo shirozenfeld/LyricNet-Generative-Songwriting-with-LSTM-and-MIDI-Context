@@ -52,7 +52,6 @@ Both models use a dual-layer LSTM architecture:
 
 ```bash
 ├── code.py                # Model definition and training scripts
-├── code.ipynb             # Jupyter notebook for training & inference
 ├── report.pdf             # Detailed project report with methodology & results
 ├── data/
 │   ├── train.csv
